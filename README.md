@@ -8,7 +8,7 @@ The system includes a website, a backend and database, and a smart contract. The
 
 ## Features
 
-New members can join the organization through the website's Onboarding feature. This involves minting an SBT, which acts as an official ID Card and signifies membership in the organization.
+New members can join the State through the website's Onboarding feature. This involves minting an SBT, which acts as an official ID Card and signifies membership in the State.
 
 The website offers a member list page, where all members can be viewed, as well as a member details page for more information. To ensure consistency, all member information is stored on IPFS and the corresponding CID is saved on the smart contract.
 
