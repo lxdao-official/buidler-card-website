@@ -2,7 +2,7 @@
 
 Buidler Card is an open-source project that has been ported from LXDAO DAO Tools for building the Network State.
 
-In the Network State, each member must create and maintain an ID Card that includes their personal information. The ID Card is not transferable and cannot be sold, which is why the Buidler Card was developed to implement this system.
+In the Network State, each member must create and maintain an ID Card that includes their personal information. The ID Card is not transferable and cannot be sold, which is why the Buidler Card is designed to be a SBT.
 
 The system includes a website, a backend and database, and a smart contract. The backend and contract repository can be found at <https://github.com/lxdao-official/buidler-card-backend>.
 
@@ -12,7 +12,7 @@ New members can join the organization through the website's Onboarding feature. 
 
 The website offers a member list page, where all members can be viewed, as well as a member details page for more information. To ensure consistency, all member information is stored on IPFS and the corresponding CID is saved on the smart contract.
 
-The system also includes a backend and database to enhance the user experience by providing a cache layer. However, even without the backend, all member information can still be accessed directly from the blockchain.
+The system also includes a backend and database to enhance the user experience by providing a cache layer. However, even without the backend, all member information can still be accessed directly from the blockchain and IPFS.
 
 ## What's Next?
 
@@ -20,7 +20,7 @@ Due to limited time and resources, the following features have not yet been comp
 
 - Integrate with RSS3, ensuring all information and activities comply with the RSS3 protocol for compatibility with other apps.
 - Integrate with .bit, allowing members to display their associated .bit address.
-- Deployed to StarkNet, resulting in improved user experience and reduced gas fees for updating information on the blockchain.
+- Rewrite and Deploy the Smart Contract to StarkNet, resulting in improved user experience and reduced gas fees for updating information on the blockchain.
 
 ## How to start the application?
 
@@ -32,7 +32,7 @@ Create `.env` file based on the `.env.sample` file, and you can use the followin
 NEXT_PUBLIC_LXDAO_BACKEND_API=http://localhost:3000
 NEXT_PUBLIC_CHAIN_ID=5
 NEXT_PUBLIC_CONTRACT_ADDRESS=0x58B5800d8c891073b782d5a9ca81b1b34cdcf2D8
-// go to https://www.infura.io/ to get one
+# go to https://www.infura.io/ to get one
 NEXT_PUBLIC_INFURA_ID=
 ```
 
